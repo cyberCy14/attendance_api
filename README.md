@@ -1,7 +1,7 @@
 # OODP---Attendance-API
 A midterm project of OODP 
 
-API Source: Cloned source from a provided API folder 
+API Source: Cloned source from a provided API Repository
 
 Terminal Output:
 
