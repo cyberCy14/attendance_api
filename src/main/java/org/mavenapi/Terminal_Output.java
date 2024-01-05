@@ -30,10 +30,12 @@ public class Terminal_Output {
             System.out.println("[2] Get one student\n\t");
             String userInput2 = opt.nextLine();
 
+            //Fetching the list of students for Section A
             if (userInput2.equals("1")) {
                 System.out.println("Fetching all students of Section A...");
                 displayStudentsForSection("section-a");
 
+                //Fetching a searched student of section A
             } else if (userInput2.equals("2")) {
                 System.out.println("Search student: ");
                 String searchStud = opt.nextLine();
@@ -61,9 +63,13 @@ public class Terminal_Output {
             System.out.println("[2] Get one student\n\t");
             String userInput2 = opt.nextLine();
 
+             //Fetching the list of students for Section B
+
             if (userInput2.equals("1")) {
                 System.out.println("Fetching all students of Section B...");
                 displayStudentsForSection("section-b");
+
+            //Fetching a searched student of section B
 
             } else if (userInput2.equals("2")) {
                 System.out.println("Search student: ");
@@ -91,9 +97,13 @@ public class Terminal_Output {
             System.out.println("[2] Get one student\n\t");
             String userInput2 = opt.nextLine();
 
+            //Fetching the list of students for Section C
+
             if (userInput2.equals("1")) {
                 System.out.println("Fetching all students of Section C...");
                 displayStudentsForSection("section-c");
+
+             //Fetching a searched student of section C
 
             } else if (userInput2.equals("2")) {
                 System.out.println("Search student: ");
